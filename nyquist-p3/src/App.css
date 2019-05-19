@@ -32,23 +32,21 @@
 }
 
 .btn-grp {
-  padding-top: 6em;
+  padding-top: 4em;
   display: inline-block;
   justify-content: center;
 }
 
 .zoom {
   padding: 40px;
-  transition: transform .2s; /* Animation */
+  transition: transform .2s;
   width: auto;
   height: auto;
   display: inline-block;
 }
 
 .zoom:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
-
+  transform: scale(1.2); 
 }
 
 

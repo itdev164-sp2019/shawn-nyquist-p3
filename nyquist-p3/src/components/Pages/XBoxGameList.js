@@ -10,7 +10,7 @@ function filter(data) {
 const XboxGameList = () => (
     <div>
         <h1>Xbox One Games</h1>
-        
+        <Link to='/'>Back</Link>  
         <ul>
             {LocalGameAPI.all().filter(filter).map(game => (
                 <li key={game.console}>

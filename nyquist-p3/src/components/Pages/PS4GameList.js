@@ -10,6 +10,7 @@ function filter(data) {
 const PS4GameList = () => (
     <div>
         <h1>Playstation 4 Games</h1>
+        <Link to='/'>Back</Link>
         
         <ul>
             {LocalGameAPI.all().filter(filter).map(game => (

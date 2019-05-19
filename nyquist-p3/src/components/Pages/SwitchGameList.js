@@ -10,6 +10,7 @@ function filter(data) {
 const SwitchGameList = () => (
     <div>
         <h1>Nintendo Switch Games</h1>
+        <Link to='/'>Back</Link>
         
         <ul>
             {LocalGameAPI.all().filter(filter).map(game => (
