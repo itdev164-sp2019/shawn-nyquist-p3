@@ -23,6 +23,26 @@
   color: #61dafb;
 }
 
+.Header-Links {
+  margin: 1em; 
+}
+
+#Link {
+  padding: 2em;
+}
+
+.btn-grp {
+  margin: auto;
+  padding-top: 6em;
+  justify-content: center;
+  display: inline-block;
+  
+}
+
+header:Link {
+  margin-right: 2em;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

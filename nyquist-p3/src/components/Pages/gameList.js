@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 const FullGameList = () => (
     <div>
         <h1>Full Game List</h1>
+        <Link to='/'>Back</Link>
         <ul>
             {LocalGameAPI.all().map(game => (
                 <li key={game.id}>
