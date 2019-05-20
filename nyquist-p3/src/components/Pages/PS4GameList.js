@@ -1,6 +1,7 @@
 import React from 'react'
 import LocalGameAPI from '../APIs/localAPI'
 import { Link } from 'react-router-dom'
+import '../../App.css';
 
 function filter(data) {
     return data.console === "PS4";
@@ -8,7 +9,7 @@ function filter(data) {
 }
 
 const PS4GameList = () => (
-    <div>
+    <div class="List">
         <h1>Playstation 4 Games</h1>
         <Link to='/'>Back</Link>
         

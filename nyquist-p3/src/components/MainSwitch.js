@@ -1,7 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './Pages/Home'
-import FullGameList from './Pages/gameList'
 import PS4GameList from './Pages/PS4GameList'
 import XBoxGameList from './Pages/XBoxGameList'
 import SwitchGameList from './Pages/SwitchGameList'

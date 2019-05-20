@@ -1,6 +1,8 @@
+
+
 const LocalGameAPI = {
     games: [
-        { id: 1, title: "Fortnite", rating: "8.7", price: "Free", picture: "", console: "PS4", route: "/PS4-Games"},
+        { id: 1, title: "Fortnite", rating: "8.7", price: "Free", picture: "../images/fortnite.jpg", console: "PS4", route: "/PS4-Games"},
         { id: 2, title: "Anthem", rating: "6.5", price: "39.99", picture: "", console: "PS4", route: "/PS4-Games"},
         { id: 3, title: "Minecraft", rating: "", price: "", picture: "", console: "Xbox One", route: "/Xbox-Games"},
         { id: 4, title: "Overwatch", rating: "", price: "", picture: "", console: "PS4", route: "/PS4-Games"},

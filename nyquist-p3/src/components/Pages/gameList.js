@@ -1,9 +1,11 @@
 import React from 'react'
 import LocalGameAPI from '../APIs/localAPI'
 import { Link } from 'react-router-dom'
+import '../../App.css';
+
 
 const FullGameList = () => (
-    <div>
+    <div class="List">
         <h1>Full Game List</h1>
         <Link to='/'>Back</Link>
         <ul>
