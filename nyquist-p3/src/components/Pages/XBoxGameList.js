@@ -2,6 +2,12 @@ import React from 'react'
 import LocalGameAPI from '../APIs/localAPI'
 import { Link } from 'react-router-dom'
 import '../../App.css';
+import styled from 'styled-components'
+
+const StyledDiv = styled.div `
+    color: black;
+    padding: 5em;
+`
 
 function filter(data) {
     return data.console === "Xbox One";
@@ -9,7 +15,7 @@ function filter(data) {
 }
 
 const XboxGameList = () => (
-    <div class="List">
+    <StyledDiv>
         <h1>Xbox One Games</h1>
         <Link to='/'>Back</Link>  
         <ul>
@@ -19,7 +25,7 @@ const XboxGameList = () => (
                 </li>
             ))}
         </ul>
-    </div>
+    </StyledDiv>
 )
 
 export default XboxGameList

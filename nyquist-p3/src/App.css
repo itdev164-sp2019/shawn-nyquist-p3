@@ -18,36 +18,25 @@
   color: #61dafb;
 }
 
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  height: 2.5rem;
-  color: black;
-}
-
 .Header-Links{
   font-size: 20px;
 }
-header{
-  text-align: center;
-  width: 100%;
-  font-size: 40px;
-  justify-content: center;
-  color: rgb(70, 70, 70);
-}
-.image{
-  box-shadow: 10px 10px 20px black;
-}
+
+
 #Link {
-  align-content: center;
-  
+  align-content: center; 
+}
+
+#Link:hover {
+  color: red;
+}
+
+#Link:visited {
+  color: pink;
 }
 
 .btn-grp {
-  padding-top: 3em;
+  padding-top: 2em;
   display: inline-block;
   justify-content: center;
 }
